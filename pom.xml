@@ -36,8 +36,8 @@
             <manifestEntries>
               <Project-name>${project.name}</Project-name>
               <Project-version>${project.version}</Project-version>
-              <Premain-Class>com.bit.javassist.AgentMain2</Premain-Class>
-              <Boot-Class-Path>javassist-3.18.1-GA.jar</Boot-Class-Path>
+              <Premain-Class>com.jackzhang.javassist.AgentMain1</Premain-Class>
+              <Boot-Class-Path>javassist-3.21.0-GA.jar</Boot-Class-Path>
               <Can-Redefine-Classes>false</Can-Redefine-Classes>
             </manifestEntries>
           </archive>
